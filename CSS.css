@@ -1,0 +1,143 @@
+
+body {
+	background-color: #f5ee90;
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	background-color: #0c65eb;
+	z-index: 10;
+}
+
+.menu-s{
+	position: relative;
+	width: 100%;
+	height: 60px;
+}
+
+.menu ul{
+	display: block;
+	width: 100%;
+	height: 60px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.menu li{
+	display: inline-block;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    width: 32%;
+    height: 60px;
+    background-color: #ffffff;
+	box-shadow: 0px 0px 7px 7px #0c65eb inset;
+}
+.menu li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu li a p{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.menu li:hover{
+	background-color: #b5b5b5;
+}
+
+body header {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: #0c65eb;
+	position: relative;
+	border-bottom: solid black 5px;
+	font-size: 20px;
+}
+
+body header h1 {
+	position: relative;
+	top: 25px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+body header img {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	float: right;
+}
+
+body .cont{
+	position: relative;
+	border: solid black 3px;
+	width: 100%;
+	height: 1000px;
+}
+
+body .cont table{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.cont table td{
+	height: 300px;
+}
+.cont table td img{
+	width: 100%;
+	height: 100%;
+}
+.tekst {
+	padding: 15px;
+	font-size: 26px;
+}
+
+.tekst p a{
+	color: yellow;
+	background-color: #103585;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	border: solid black 1px;
+}
+
+body footer{
+	display: block;
+	position: static;
+	bottom: 0px;
+	height: 75px;
+	width: 100%;
+	background-color: #939599;
+	color: #ffffff;
+	padding: 0;
+}
+body footer p{
+	padding: 0;
+	margin: 0;
+}
+
+body footer .source{
+	display: inline-block;
+	position: relative;
+	float: right;
+	right: 30px;
+}
